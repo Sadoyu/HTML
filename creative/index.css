@@ -39,3 +39,16 @@ input[type=text]:focus {
 a{
 	text-decoration: none !important;
 }
+
+.container{
+	margin: 1px 140px 1px 140px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+body{
+	background-image: url(explosion.jpg);
+	background-repeat: no-repeat;
+}
