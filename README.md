@@ -1,3 +1,3 @@
 # Html
 
-This repo consists HTML markups.
+This repo consists of HTML markups.
