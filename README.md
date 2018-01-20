@@ -1,3 +1,3 @@
 # Html
 
-This repo consists of the files containing my practised HTML codes.
+This repo consists HTML markups.
