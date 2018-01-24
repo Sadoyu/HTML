@@ -1,6 +1,10 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
 nav{
 	position : relative;
-	background-color: #e1e1e1;
+	background-color: black;
 	padding: 12px 20px 12px 20px;
 }
 
@@ -48,12 +52,16 @@ a{
 }
 
 a:visited{
-	color: blue;
+	color: white;
 }
 
 h1{
-	text-align: center;
 	color: white;
+	font: bold Roboto;
+    width: 18ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s;
 }
 
 .container{
@@ -61,7 +69,7 @@ h1{
 }
 
 .body{
-	background-image: url(explosion.jpg);
+	background-image: url(images/explosion.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -92,6 +100,5 @@ p:target {
 
 .back_see{
 	background-color: white;
-	opacity: 0.5;
-	display: transparent;
+
 }
