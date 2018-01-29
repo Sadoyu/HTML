@@ -1,0 +1,21 @@
+AVALANCHE
+An avalanche (also called a snowslide) is a rapid flow of snow down a sloping surface. Avalanches are typically triggered in a starting zone from a mechanical failure in the snowpack (slab avalanche) when the forces on the snow exceed its strength but sometimes only with gradually widening (loose snow avalanche). After initiation, avalanches usually accelerate rapidly and grow in mass and volume as they entrain more snow. If the avalanche moves fast enough some of the snow may mix with the air forming a powder snow avalanche, which is a type of gravity current.
+
+Slides of rocks or debris, behaving in a similar way to snow, are also referred to as avalanches. The remainder of this article refers to snow avalanches.
+
+The load on the snowpack may be only due to gravity, in which case failure may result either from weakening in the snowpack or increased load due to precipitation. Avalanches initiated by this process are known as spontaneous avalanches. Avalanches can also be triggered by other loading conditions such as human or biologically related activities. Seismic activity may also trigger the failure in the snowpack and avalanches.
+
+Although primarily composed of flowing snow and air, large avalanches have the capability to entrain ice, rocks, trees, and other surficial material. However, they are distinct from mudslides which have greater fluidity, rock slides which are often ice free, and serac collapses during an icefall. Avalanches are not rare or random events and are endemic to any mountain range that accumulates a standing snowpack. Avalanches are most common during winter or spring but glacier movements may cause ice and snow avalanches at any time of year. In mountainous terrain, avalanches are among the most serious objective natural hazards to life and property, with their destructive capability resulting from their potential to carry enormous masses of snow at high speeds.
+
+There is no universally accepted classification system for different forms of avalanches. Avalanches can be described by their size, their destructive potential, their initiation mechanism, their composition and their dynamics.
+
+
+
+FORMATION
+
+Most avalanches occur spontaneously during storms under increased load due to snowfall. The second largest cause of natural avalanches is metamorphic changes in the snowpack such as melting due to solar radiation. Other natural causes include rain, earthquakes, rockfall and icefall. Artificial triggers of avalanches include skiers, snowmobiles, and controlled explosive work. Contrary to popular belief, avalanches are not triggered by loud sound; the pressure from sound is orders of magnitude too small to trigger an avalanche.
+
+Avalanche initiation can start at a point with only a small amount of snow moving initially; this is typical of wet snow avalanches or avalanches in dry unconsolidated snow. However, if the snow has sintered into a stiff slab overlying a weak layer then fractures can propagate very rapidly, so that a large volume of snow, that may be thousands of cubic meters, can start moving almost simultaneously.
+
+A snowpack will fail when the load exceeds the strength. The load is straightforward; it is the weight of the snow. However, the strength of the snowpack is much more difficult to determine and is extremely heterogenous. It varies in detail with properties of the snow grains, size, density, morphology, temperature, water content; and the properties of the bonds between the grains. These properties may all metamorphose in time according to the local humidity, water vapour flux, temperature and heat flux. The top of the snowpack is also extensively influenced by incoming radiation and the local air flow. One of the aims of avalanche research is to develop and validate computer models that can describe the evolution of the seasonal snowpack over time. A complicating factor is the complex interaction of terrain and weather, which causes significant spatial and temporal variability of the depths, crystal forms, and layering of the seasonal snowpack.
+

@@ -1,0 +1,135 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+li{
+	display: inline;
+	padding-right: 38px;
+	float: left;
+}
+
+textarea{
+	border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+}
+
+a{
+	text-decoration: none !important;
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+select{
+	width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 10px 12px 10px;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	padding: 5px;
+	font-size: 20px;
+}
+
+input[type=text] {
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+}
+
+button{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#search[type=text] {
+    width: 50px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+    transition: width 0.4s ease-in-out;
+}
+
+#search[type=text]:focus {
+    width: 75%;
+}
+
+#feedback{
+	padding: 100px, 300px, 100px, 300px;
+}
+
+#nav{
+	position : relative;
+	background-color: black;
+	padding: 12px 10px 12px 5px;
+}
+
+#title{
+	font-weight: 50px;
+	font-size: 2.5em;
+}
+
+#h1Animation{
+	color: white;
+	font: bold Roboto;
+    width: 18ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 3s;
+}
+
+.container{
+	margin: 0px 150px 0px 150px;
+}
+
+.body{
+	background-image: url(images/explosion.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.sideBySide{
+	float: left;
+	padding: 30px;
+}
+
+.back_see{
+	background-color: white;
+}
+
+.image{
+	width: 400px;
+	height: 200px;
+}
+
+.footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
