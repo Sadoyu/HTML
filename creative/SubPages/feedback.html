@@ -6,10 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="../index.css"></link>
 	<link rel="icon" type="image/png" href="../images/dis-icon.png"></link>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></link>
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<ul id="nav">
-        <li><a href="../index.html"><img src="../images/trump.png" alt="home-icon" width="70" height="50" /></a></li>
+        <li><a href="../index.html"><img src="../images/icon.png" alt="home-icon" width="70" height="50" /></a></li>
         <li id="title"><a href="../index.html">Disasters</a></li>
         <li><a href="">Avalanches</a></li>
         <li><a href="">Earthquakes</a></li>
@@ -29,30 +30,33 @@
 		<li><input id="search" type="text"/></li>
 	</ul>
 	<br />
-	<div id="feedback">
-		<div>
-			Name:
-			<input type="text" />
-		</div>
-		<br />
-		<div>
-			Email:
-			<input type="text" />
-		</div>
-		<br />
-		<div>
-			Rating (out of 5)
-			<input type="text" />
-		</div>
-		<br />
-		Feedback Comments:
-		<div>
-			<textarea rows="5" cols="100"></textarea>
-		</div>
-		<br />
-		<div>
-			<button>Submit</button>
+	<div class="container">
+		<div id="feedback">
+			<div>
+				Name:
+				<input class="feedback_text" type="text" />
+			</div>
+			<br />
+			<div>
+				Email:
+				<input class="feedback_text" type="text" />
+			</div>
+			<br />
+			<div>
+				Rating (out of 5)
+				<input class="feedback_text" type="text" />
+			</div>
+			<br />
+			Feedback Comments:
+			<div>
+				<textarea rows="5" cols="100"></textarea>
+			</div>
+			<br />
+			<div>
+				<button>Submit</button>
+			</div>
 		</div>
 	</div>
+	
 </body>
 </html>
