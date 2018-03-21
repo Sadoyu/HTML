@@ -1,6 +1,4 @@
-h1{
-  text-align: center;
-}
+
 body{
   text-align: center;
 }
@@ -29,4 +27,27 @@ body{
   font-size: 16px;
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#but,#sub{
+  text-align: center;
+  background-color: purple;
+  margin:auto;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#dis{
+	background-color:white;
+	position:absolute;
+	top:200px;
+	left:1220px;
+	height:100px;
+	width:120px;
 }
