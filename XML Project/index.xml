@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="stu.xsl"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="validations/stu.xsd">
+<!--<!DOCTYPE students SYSTEM "validations/stu.dtd">
+<students>-->
+    <student id="1">
+        <image>image/1.jpg</image>
+        <name>Virat Kohli</name>
+        <rollno>CBIT-CSE-018</rollno>
+        <dept>CSE</dept>
+        <gender>Male</gender>
+        <email>vkohli@gmail.com</email>
+        <dob>1998-11-05</dob>
+        <phone type="personal">040-58034088</phone>
+        <phone type="private">91-8182788410</phone>
+        <results>
+            <result course="DBMS" grade="C+" /> 
+            <result course="WT" grade="C"/> 
+        </results>
+    </student>
+    
+    <student id="3">
+        <image>image/3.jpg</image>
+        <name>M.S Dhoni</name>
+        <rollno>CBIT-ECE-007</rollno>
+        <dept>ECE</dept>
+        <gender>Male</gender>
+        <email>msdhoni@gmail.com</email>
+        <dob>1981-07-07</dob>
+        <phone type="personal">203-17235666</phone>
+        <phone type="private">91-5851587889</phone>
+        <results>
+            <result course="ELECTRONICS" grade="B"/>
+            <result course="MACHINE SYSTEM" grade="B+"/>
+        </results>
+    </student>
+
+
+    <student id="2">
+        <image>image/2.jpg</image>
+        <name>Rohit Sharma</name>
+        <rollno>CBIT-CSE-045</rollno>
+        <dept>CSE</dept>
+        <gender>Male</gender>
+        <email>rohits@gmail.com</email>
+        <dob>1987-04-30</dob>
+        <phone type="personal">230-073423678</phone>
+        <phone type="private">91-4408677888</phone>
+        <results>
+            <result course="DBMS" grade="A+"/>
+            <result course="WT" grade="C+"/>	
+        </results>
+    </student>
+
+
+    <student id="5">
+        <image>image/5.jpg</image>
+        <name>R.Ashwin</name>
+        <rollno>CBIT-IT-099</rollno>
+        <dept>IT</dept>
+        <gender>Male</gender>
+        <email>ashwin@gmail.com</email>
+        <dob>1986-09-17</dob>
+        <phone type="personal">233-273342372</phone>
+        <phone type="private">91-8121287882</phone>
+        <results>
+            <result course="JAVA" grade="A"/>
+            <result course="CP" grade="A+"/>
+        </results>
+    </student>
+
+
+    <student id="4">
+        <image>image/4.jpg</image>
+        <name>Rahane</name>
+        <rollno>CBIT-ECE-027</rollno>
+        <dept>ECE</dept>
+        <gender>Male</gender>
+        <email>rahane@gmail.com</email>
+        <dob>1988-06-06</dob>
+        <phone type="personal">780-723422371</phone>
+        <phone type="private">91-4841587881</phone>
+        <results>
+            <result course="ELECTRONICS" grade="A"/>
+            <result course="MACHINE SYSTEM" grade="B+"/>
+        </results>
+    </student>
+
+
+    <student id="6">
+        <image>image/6.jpg</image>
+        <name>Jadeja</name>
+        <rollno>CBIT-IT-008</rollno>
+        <dept>IT</dept>
+        <gender>Male</gender>
+        <email>jadeja@gmail.com</email>
+        <dob>1988-12-06</dob>
+        <phone type="personal">230-723422373</phone>
+        <phone type="private">91-8122837883</phone>
+        <results>
+            <result course="JAVA" grade="B"/>
+            <result course="CP" grade="B+"/>
+        </results>
+    </student>
+</students>
