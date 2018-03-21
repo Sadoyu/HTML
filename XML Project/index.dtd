@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!ELEMENT students (student)*>
+
+<!ELEMENT student (image|name|rollno|dept|gender|email|dob|phone|results)*>
+<!ATTLIST student
+    id CDATA #IMPLIED
+  >
+
+<!ELEMENT image (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT rollno (#PCDATA)>
+
+<!ELEMENT dept (#PCDATA)>
+
+<!ELEMENT gender (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT dob (#PCDATA)>
+
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone
+    type CDATA #IMPLIED
+  >
+
+<!ELEMENT results (result)*>
+
+<!ELEMENT result EMPTY>
+<!ATTLIST result
+    course CDATA #IMPLIED
+    grade CDATA #IMPLIED
+  >
