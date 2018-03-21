@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+ <xsd:element name="students">
+  <xsd:complexType>
+  <xsd:sequence>
+    <xsd:element name="student" maxOccurs="unbounded">
+     <xsd:complexType mixed="true">
+      <xsd:sequence>
+		 
+             <xsd:element name="image" type="xsd:string" />
+
+             <xsd:element name="name" type="xsd:string" />
+   
+             <xsd:element name="rollno">
+               <xsd:simpleType>
+                 <xsd:restriction base="xsd:string">
+                     <xsd:pattern value="CBIT-(CSE|ECE|IT)-\d{3,}"/>
+                 </xsd:restriction>
+               </xsd:simpleType>
+             </xsd:element>
+  
+             <xsd:element name="dept">
+               <xsd:simpleType>
+                 <xsd:restriction base="xsd:string">
+                     <xsd:pattern value="CSE|ECE|IT" />
+                 </xsd:restriction>
+               </xsd:simpleType>
+             </xsd:element>
+
+             <xsd:element name="gender">
+                <xsd:simpleType>
+                 <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="Male|Female" />
+                 </xsd:restriction>
+                </xsd:simpleType>
+             </xsd:element>
+
+			 <xsd:element name="email">
+               <xsd:simpleType>
+                 <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="\w{6,}@gmail.com" />
+                 </xsd:restriction>
+               </xsd:simpleType>
+             </xsd:element>
+             
+			 <xsd:element name="dob" type="xsd:date" />
+  
+	         <xsd:element name="phone" maxOccurs="2" >
+               <xsd:complexType mixed="true">
+                 <xsd:attribute name="type" use="required">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                             <xsd:enumeration value="personal"/>
+			    			<xsd:enumeration value="private"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                 </xsd:attribute>
+               </xsd:complexType>
+             </xsd:element>
+
+             <xsd:element name="results">
+                 <xsd:complexType>
+                   <xsd:sequence>
+                     <xsd:element name="result" maxOccurs="2">
+                         <xsd:complexType>
+                           <xsd:attribute name="course">
+                               <xsd:simpleType>
+                                  <xsd:restriction base="xsd:string">
+                                       <xsd:pattern value="DBMS|WT|ELECTRONICS|MACHINE SYSTEM|JAVA|CP" />
+                                  </xsd:restriction>
+                               </xsd:simpleType>
+                           </xsd:attribute>
+                           <xsd:attribute name="grade">
+                              <xsd:simpleType>
+                                 <xsd:restriction base="xsd:string">
+                                   <xsd:enumeration value="A"/><xsd:enumeration value="A+"/>
+                                   <xsd:enumeration value="B"/><xsd:enumeration value="B+"/>
+                                   <xsd:enumeration value="C"/><xsd:enumeration value="C+"/>
+                                 </xsd:restriction>
+                              </xsd:simpleType>
+                           </xsd:attribute>
+                         </xsd:complexType>
+                       </xsd:element>
+                     </xsd:sequence>
+                  </xsd:complexType>
+              </xsd:element>
+
+      </xsd:sequence>
+        <xsd:attribute name="id">
+         <xsd:simpleType>
+           <xsd:restriction base="xsd:integer">
+               <xsd:minInclusive value="1" />
+               <xsd:maxInclusive value="6" />
+           </xsd:restriction>
+        </xsd:simpleType>
+       </xsd:attribute>
+  
+    </xsd:complexType>
+    </xsd:element>
+    </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
