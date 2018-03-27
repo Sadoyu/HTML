@@ -9,8 +9,8 @@
 
   <body>
     <h1>Register to our site now!</h1>
-    <button id="b1" onclick="showLogin();" type="button" name="button">SignIn</button>
-    <button id="b2" onclick="showSign();" type="button" name="button">SignUp</button>
+    <button class="button" onclick="showLogin();" type="button" name="button">SignIn</button>
+    <button class="button" onclick="showSign();" type="button" name="button">SignUp</button>
     <br /><br />
     
     <div id="frame" >
@@ -27,13 +27,9 @@
             <td>PASSWORD:</td>
             <td><input type="password" id="Lpass" onblur="vaLpass();"/> </td>
           </tr>
-        
-          <tr>
-          <td align="right"><input type="submit" name="login" id="but"/></td>
-            <td id="err" align="center"></td>
-          </tr>
-
           </table>
+          <h2 id="err" align="center"></h2>
+          <input type="submit" align="center" name="login" id="but"/>
         </form>
       </div>
     
@@ -115,12 +111,9 @@
               <input type="checkbox" value="TV"/>TV
             </td>
           </tr>
-        
-          <tr>
-            <td align="center"><input type='submit' name='submit' id="sub"  /></td>
-            <td id="serr" align="center"></td>
-          </tr>
         </table>
+        <h2 id="serr" align="center"></h2>
+        <input type='submit' name='submit' id="sub"  />
       </form>
       </div>
       <div id="details">
