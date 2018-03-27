@@ -2,15 +2,10 @@ var un,p2,sun,phone,cell,db,e,n,p,cp=false;
 var d1,d2,d3,d4,d5,d6;
 
 window.onload=function(){
-	var myimage=document.getElementById("slideim");
-	var imarr=["img/r10.jpg","img/r9.png","img/r8.jpg","img/r2.jpg","img/r3.jpg","img/r4.png","img/r5.jpg","img/r6.jpg","img/r7.jpg","img/r1.jpeg"];
-	var i=0;
-	setInterval(function(){myimage.setAttribute("src",imarr[i]);i++;if(i>=imarr.length){i=0;}},1500);
-	showHob();
 	document.getElementById("login").style.display="none";
 	document.getElementById("signup").style.display="none";
 	document.getElementById("details").style.display="none";
-	check(); 
+	check();
 	vaLog();
 };
 
@@ -49,17 +44,13 @@ function showHob(){
 
 function vaUn(){
     var pat = /^[a-zA-Z_0-9]{6,40}$/;
-    var name= document.getElementById('Un');
-	if (pat.test(name.value)){	
-		document.getElementById("err").innerHTML="CORRECT";
+	var name= document.getElementById('Un');
+	var un = false;
+	if (!pat.test(name.value)){	
+		document.getElementById("err").innerHTML="INVALID USERNAME";
 		un=true;
-        return true;
     }
-    else {	
-       document.getElementById("err").innerHTML="INVALID USERNAME";
-       un=false;
-	   return false;
-    }
+    return un;
 }
 
 function vaLpass(){
@@ -141,16 +132,12 @@ function vaSpas(){
 function vaScpas(){
     var Spas= document.getElementById('Spas');
     var Scpas= document.getElementById('Scpas');
-    if(Spas.value==Scpas.value){
-    	document.getElementById("serr").innerHTML="MATCH";
+    if(Spas.value != Scpas.value){
+    	document.getElementById("serr").innerHTML="PASSWORDS DO NOT MATCH";
 		cp=true;
         return true;
-    }
-    else{
-		document.getElementById("serr").innerHTML="NOT MATCH";
-        cp=false;
-        return false;
-    }
+	}
+	return false;
 }
 
 function vaSema(){
@@ -212,7 +199,7 @@ function vadob(){
     	db=false;
 	}
 }
-		
+
 function check(){ 
 	document.getElementById("signup").onsubmit=function(){	
 		if(e==true&&n==true&&p==true&&cp==true&&phone==true&&cell==true&&db==true){	
