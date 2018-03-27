@@ -1,21 +1,7 @@
-
 body{
-  text-align: center;
+    text-align: center;
 }
-#b1{
-  text-align: center;
-  background-color: green;
-  margin:auto;
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 25px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-#b2{
+.button{
   text-align: center;
   background-color: green;
   margin:auto;
@@ -28,7 +14,6 @@ body{
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
 #but,#sub{
   text-align: center;
   background-color: purple;
@@ -42,12 +27,17 @@ body{
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
 #dis{
-	background-color:white;
-	position:absolute;
-	top:200px;
-	left:1220px;
-	height:100px;
-	width:120px;
+  background-color:white;
+  position:absolute;
+  top:200px;
+  left:1220px;
+  height:100px;
+  width:120px;
+}
+input {
+  padding: 8px 8px;
+}
+h2{
+  color: red;
 }
